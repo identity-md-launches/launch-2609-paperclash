@@ -1,0 +1,24 @@
+{
+  "kind": "custom_token",
+  "token": {
+    "contract": "PaperClashToken",
+    "name": "PAPERCLASH",
+    "symbol": "PCLASH",
+    "decimals": 18,
+    "constructorArgs": [],
+    "totalSupply": "1000000000000000000000000000"
+  },
+  "contracts": [],
+  "pool": {
+    "pairedCurrency": "0x0000000000000000000000000000000000000000",
+    "fee": 12500,
+    "tickSpacing": 60,
+    "initialPrice": "79228162514264337593543950336"
+  },
+  "economics": {
+    "poolBps": 8400,
+    "initialMarketCapWei": "10000000000000000000",
+    "remainderTo": "0x863e974406764c8526b102c28a1e53906e032954"
+  },
+  "notes": "PaperClashToken (PAPERCLASH, PCLASH) is a plain fixed-supply OpenZeppelin ERC-20 with 18 decimals. Its constructor takes no arguments and mints the whole supply of 1,000,000,000 tokens (1000000000000000000000000000 minor units) once to msg.sender, the factory. It has no owner, no minter, no pause, no blocklist, no fee and no transfer hook, so launch flows move exactly what they say and the supply can never grow. The launch deploys no application contracts."
+}
